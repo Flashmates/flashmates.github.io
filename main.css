@@ -12,6 +12,9 @@ body {
 	background-color: blue;
 }
 
+#flashmates-title {
+	font-family: 'Lexend Exa', sans-serif;
+}
 #forms{
 	border: black solid;
 }
