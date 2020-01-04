@@ -1,8 +1,14 @@
 h1 {
-	color: blue;
+	color: yellow;
+	font-family: 'Lexend Exa', sans-serif;
+
 }
 
 p {
+	color: yellow;
+}
+
+body {
 	color: blue;
 }
 
