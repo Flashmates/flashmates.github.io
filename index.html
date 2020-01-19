@@ -4,7 +4,7 @@
 	<title>Flashmates</title>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
 
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<link href="https://fonts.googleapis.com/css?family=Lexend+Exa&display=swap" rel="stylesheet">
@@ -12,28 +12,51 @@
 </head>
 <body>
   <center>
-    <div class="title" id="title">
-	  <h1>FLASHMATES</h1>
-	  <!--<p>An Amrit Shenava Company</p>-->
+    <div id="title">
+	  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">FLASHMATES</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#section-about">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section-beta">Beta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
-    <div id="about">
-      <h1>ABOUT</h1>
-      <p>My name is Amrit Shenava and Flashmates is a experimental project that helps folks to find a roommate and a place to live off-campus. Currently in Beta and testing this out in Kent, Ohio.</p>   
-    </div>
-    <div id="forms">
-    	<h1>BETA</h1>
-    	<p>Flashmates is currently under Beta Stage and is testing out our product/service in Kent, Ohio. Please enter your email-id to learn more about us.</p>
+      <section class="section-odd">
+        <h1>ABOUT</h1>
+        <p>My name is Amrit Shenava and Flashmates is a experimental project that helps folks to find a roommate and a place to live off-campus. Currently in Beta and testing this out in Kent, Ohio.</p>
+      </section>   
+      <section class="section-even">
+    	  <h1>BETA</h1>
+    	  <p>Flashmates is currently under Beta Stage and is testing out our product/service in Kent, Ohio. Please enter your email-id to learn more about us.</p>
     	<form>
-    		<input type="text" name="email-id" value="email-id" placeholder="Enter your email-id here">
-    		<button onclick="sendInfo()">Submit </button>
+          <input type="text" name="email-id" value="email-id" placeholder="Enter your email-id here">
+    	  <button onclick="sendInfo()">Submit </button>
     	</form>
-    </div>
+      </section>
     <footer>
         <p id="footer">&copy; Copyright 2020, <span id="flashmates-title">FLASHMATES</span> by Amrit Shenava</p>
     </footer>
   </center>
-  <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+  	
+  </script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
