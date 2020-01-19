@@ -49,7 +49,7 @@ body {
 
 footer {
     position: relative;
-    height: 560px;
+    height: 100px;
     width: 100%;
     /*background-color: #333333;*/
 }
@@ -70,7 +70,7 @@ nav a {
 }
 
 .title {
-	background-color: blue;
+	color: blue;
 	border : yellow solid;
 	position: fixed;
 	margin : 0px;
