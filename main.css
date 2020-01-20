@@ -10,6 +10,7 @@ h1 {
 
 p {
 	color: yellow;
+	font-family: 'Lexend Exa', sans-serif;
 }
 
 body {
@@ -26,6 +27,7 @@ body {
 .section-odd h1 {
 	text-align: center;
 	display: inline-block;
+	font-family: 'Lexend Exa', sans-serif;
 	margin-top: 25%;
 }
 
@@ -39,6 +41,7 @@ body {
 .section-even h1 {
 	text-align: center;
 	display: inline-block;
+	font-family: 'Lexend Exa', sans-serif;
 	margin-top: 25%;
 	color: blue;
 }
