@@ -30,6 +30,10 @@ body {
 	margin-top: 25%;
 }
 
+.section-odd p {
+   font-family: 'Lexend Exa', sans-serif;
+}
+
 .section-even {
 	height : 100vh;
 	text-align: center;
